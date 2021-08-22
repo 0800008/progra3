@@ -41,17 +41,12 @@ class MyHome extends StatelessWidget{
     );
 
     return Scaffold(
-      appBar: AppBar(
-        title: Text(
-            "my place"
-        ),
-      ),
-      body: Stack(
+        body: Stack(
         children: <Widget>[
-         GradientBack()
+         CardImage("assets/images/lugar1.jpg")
 
         ],
-      ),
+      )
     );
   }
 
