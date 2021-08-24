@@ -1,6 +1,6 @@
 # proyecto1
 
-daniel
+gary vera torrico
 
 ## Getting Started
 
