@@ -27,7 +27,8 @@ class HomeAppBar extends StatelessWidget{
     final appBar = Stack(
       children: <Widget>[
         GradientBack(),
-        titulo
+        titulo,
+        CardImageList()
       ],
     );
     return appBar;
