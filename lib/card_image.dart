@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 
 class CardImage extends StatelessWidget{
-    string path;
+    String path;
     CardImage(this.path);
 
   @override
@@ -25,7 +25,7 @@ class CardImage extends StatelessWidget{
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadius.all(Radius.circular(15)),
                   boxShadow: <BoxShadow>[
-                    boxShadow(
+                    BoxShadow(
                         color: Colors.black45,
                         blurRadius: 15,
                         offset: Offset(0, 10)

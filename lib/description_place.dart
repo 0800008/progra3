@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'rounded.button.dart';
+
 class DescriptionPlace extends StatelessWidget{
   //variable
   String textoTitulo;

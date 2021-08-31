@@ -32,9 +32,9 @@ class RoundedButton extends StatelessWidget {
               textoBoton,
               style: TextStyle(
                 fontFamily: "Lato",
-                fontWeight: fontWeight.bold,
+                fontWeight: FontWeight.bold,
                 fontSize: 18,
-                color: colors.white
+                color: Colors.white
               ),//TextStyle
             ),//Text
          ),//center

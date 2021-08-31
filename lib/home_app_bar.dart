@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:proyecto1/gradient_back.dart';
 
+import 'card_image_list.dart';
+
 class HomeAppBar extends StatelessWidget{
 
     String textoTitulo;
@@ -18,7 +20,7 @@ class HomeAppBar extends StatelessWidget{
                 fontFamily: "Lato",
                 fontWeight: FontWeight.bold,
                 fontSize: 30,
-                color: Colors.White
+                color: Colors.white
             ),
         ),
     );
